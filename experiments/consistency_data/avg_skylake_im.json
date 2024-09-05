@@ -1,0 +1,1651 @@
+{
+    "bp_gadget_c1": {
+        "branch-references": {
+            "average": 245993346.17,
+            "variance": 26358487813486.875,
+            "cov": 0.02087069375233949,
+            "normality": false,
+            "confidence_interval": {
+                "low": 244709698.27873805,
+                "high": 246601221.215986
+            }
+        },
+        "branch-non-conditional-references": {
+            "average": 81450646.09,
+            "variance": 16886337125019.883,
+            "cov": 0.05045139673874604,
+            "normality": false,
+            "confidence_interval": {
+                "low": 80558016.76803674,
+                "high": 81980277.35786016
+            }
+        },
+        "branch-conditional-references": {
+            "average": 164542700.08,
+            "variance": 3853800389311.893,
+            "cov": 0.011930701733230471,
+            "normality": false,
+            "confidence_interval": {
+                "low": 164109619.12306368,
+                "high": 164794137.97045088
+            }
+        },
+        "br-miss-rate": {
+            "average": 0.13214058134126708,
+            "variance": 0.000002949762949914522,
+            "cov": 0.012997425748884572,
+            "normality": false,
+            "confidence_interval": {
+                "low": 0.13190415934735197,
+                "high": 0.13247055860751442
+            }
+        },
+        "frontend-boundedness": {
+            "average": 0.5394133407931494,
+            "variance": 0.00016115164759067713,
+            "cov": 0.023533996892818047,
+            "normality": true,
+            "confidence_interval": {
+                "low": 0.5374043877254239,
+                "high": 0.5416137014048832
+            }
+        },
+        "bad-speculation": {
+            "average": 0.7753264246600304,
+            "variance": 0.00005084821556982648,
+            "cov": 0.009197150061273678,
+            "normality": false,
+            "confidence_interval": {
+                "low": 0.7737465756658428,
+                "high": 0.7762562942163641
+            }
+        },
+        "br-conditionals-miss-rate": {
+            "average": 0.19785850351322537,
+            "variance": 0.00000611845776944882,
+            "cov": 0.012501619121413848,
+            "normality": false,
+            "confidence_interval": {
+                "low": 0.1974828601001585,
+                "high": 0.19829051388960126
+            }
+        },
+        "br-non-conditionals-miss-rate": {
+            "average": 0.0009626943299163132,
+            "variance": 0.00001095786118630519,
+            "cov": 3.4385431872487913,
+            "normality": false,
+            "confidence_interval": {
+                "low": 0.0005531911094157171,
+                "high": 0.0017380901356566357
+            }
+        },
+        "cpi": {
+            "average": 2.223097627501007,
+            "variance": 0.0008080834708097421,
+            "cov": 0.01278702683316735,
+            "normality": false,
+            "confidence_interval": {
+                "low": 2.218965717959695,
+                "high": 2.228434431855515
+            }
+        }
+    },
+    "cache_gadget_c3": {
+        "l1-loads": {
+            "average": 992062208.11,
+            "variance": 26820885529343.434,
+            "cov": 0.005220326309186711,
+            "normality": false,
+            "confidence_interval": {
+                "low": 991105938.3464668,
+                "high": 992839889.1628597
+            }
+        },
+        "l2-loads": {
+            "average": 993398943.72,
+            "variance": 18936072981576.4,
+            "cov": 0.004380475599123545,
+            "normality": true,
+            "confidence_interval": {
+                "low": 992671376.9442952,
+                "high": 994107437.5149785
+            }
+        },
+        "l3-loads": {
+            "average": 875722287.44,
+            "variance": 63053733636549.57,
+            "cov": 0.009067529999599632,
+            "normality": true,
+            "confidence_interval": {
+                "low": 874410048.5524001,
+                "high": 877026361.5590109
+            }
+        },
+        "l1-load-miss-rate": {
+            "average": 0.9999938106471126,
+            "variance": 2.5754889715139738e-11,
+            "cov": 0.000005074958968336758,
+            "normality": false,
+            "confidence_interval": {
+                "low": 0.9999927456688015,
+                "high": 0.9999944694627775
+            }
+        },
+        "l2-load-miss-rate": {
+            "average": 0.881173558122545,
+            "variance": 0.0000404944902251588,
+            "cov": 0.007221651249634077,
+            "normality": false,
+            "confidence_interval": {
+                "low": 0.8801712230390352,
+                "high": 0.8822926848468258
+            }
+        },
+        "l3-load-miss-rate": {
+            "average": 2.313414040865088e-9,
+            "variance": 1.3328543529706125e-16,
+            "cov": 4.99043013820567,
+            "normality": false,
+            "confidence_interval": {
+                "low": 8.895317438812766e-10,
+                "high": 5.213641042014459e-9
+            }
+        },
+        "l3-stores": {
+            "average": 15.11,
+            "variance": 7297.7979000000005,
+            "cov": 5.653682969269718,
+            "normality": false,
+            "confidence_interval": {
+                "low": 5.04,
+                "high": 35.3
+            }
+        },
+        "cpi": {
+            "average": 0.3795672740849891,
+            "variance": 0.000012077488528736417,
+            "cov": 0.009155868697228868,
+            "normality": false,
+            "confidence_interval": {
+                "low": 0.37911826179647934,
+                "high": 0.3803491781540979
+            }
+        },
+        "l3-store-miss-rate": {
+            "average": -0.9305477915804002,
+            "variance": 0.12300027914455529,
+            "cov": -0.3768897841407238,
+            "normality": false,
+            "confidence_interval": {
+                "low": -0.9714009266659341,
+                "high": -0.8508057280883368
+            }
+        },
+        "load-page-walks": {
+            "average": 7972070746.11,
+            "variance": 4248794106587406.5,
+            "cov": 0.00817639189258334,
+            "normality": false,
+            "confidence_interval": {
+                "low": 7963961965.184012,
+                "high": 7986502713.43584
+            }
+        },
+        "store-page-walks": {
+            "average": 6,
+            "variance": 101.9,
+            "cov": 1.6824254977726518,
+            "normality": false,
+            "confidence_interval": {
+                "low": 4.52,
+                "high": 7.91
+            }
+        }
+    },
+    "cache_gadget_c4": {
+        "l1-loads": {
+            "average": 4033508057.71,
+            "variance": 112381292663021.06,
+            "cov": 0.0026282343239788447,
+            "normality": false,
+            "confidence_interval": {
+                "low": 4031739507.311572,
+                "high": 4035203071.0335073
+            }
+        },
+        "l2-loads": {
+            "average": 980386855.79,
+            "variance": 10961809933018.648,
+            "cov": 0.003377097923888361,
+            "normality": false,
+            "confidence_interval": {
+                "low": 979837644.5784459,
+                "high": 980917261.1141703
+            }
+        },
+        "l3-loads": {
+            "average": 925859976.72,
+            "variance": 25973161611789.363,
+            "cov": 0.0055044901407949615,
+            "normality": true,
+            "confidence_interval": {
+                "low": 925008532.9829087,
+                "high": 926689214.6686614
+            }
+        },
+        "l1-load-miss-rate": {
+            "average": 0.2432563905057781,
+            "variance": 0.0000011570880584051727,
+            "cov": 0.004422002130344364,
+            "normality": false,
+            "confidence_interval": {
+                "low": 0.2430831839720607,
+                "high": 0.2434377707572489
+            }
+        },
+        "l2-load-miss-rate": {
+            "average": 0.9448675280086904,
+            "variance": 0.000018447750323172407,
+            "cov": 0.004545700121909674,
+            "normality": true,
+            "confidence_interval": {
+                "low": 0.9441670260476487,
+                "high": 0.9455729260035446
+            }
+        },
+        "l3-load-miss-rate": {
+            "average": 0.0000012937382437387744,
+            "variance": 2.713516967831887e-13,
+            "cov": 0.40264272298345744,
+            "normality": false,
+            "confidence_interval": {
+                "low": 0.000001191661573557433,
+                "high": 0.000001367385544531786
+            }
+        },
+        "l3-stores": {
+            "average": 7464.51,
+            "variance": 2717306583.3299003,
+            "cov": 6.983417651323112,
+            "normality": false,
+            "confidence_interval": {
+                "low": 34.51946603784392,
+                "high": 22349.438702205345
+            }
+        },
+        "cpi": {
+            "average": 0.3837072823006389,
+            "variance": 0.000008636700055761133,
+            "cov": 0.007659031875017295,
+            "normality": false,
+            "confidence_interval": {
+                "low": 0.3833533885695144,
+                "high": 0.3844332711730356
+            }
+        },
+        "l3-store-miss-rate": {
+            "average": -0.6518580246913581,
+            "variance": 0.26157448936899863,
+            "cov": -0.7845934475082086,
+            "normality": false,
+            "confidence_interval": {
+                "low": -0.731,
+                "high": -0.561858024691358
+            }
+        },
+        "load-page-walks": {
+            "average": 16124116358.04,
+            "variance": 16037007337086036,
+            "cov": 0.007853906747455789,
+            "normality": false,
+            "confidence_interval": {
+                "low": 16109059213.79265,
+                "high": 16155753991.499418
+            }
+        },
+        "store-page-walks": {
+            "average": 1.5,
+            "variance": 168.75,
+            "cov": 8.660254037844387,
+            "normality": false,
+            "confidence_interval": {
+                "low": 0.2,
+                "high": 6.5
+            }
+        }
+    },
+    "cache_gadget_c5": {
+        "l1-loads": {
+            "average": 480980148.28,
+            "variance": 1415461082320.4016,
+            "cov": 0.0024735563851458657,
+            "normality": false,
+            "confidence_interval": {
+                "low": 480775574.16719085,
+                "high": 481170711.4612272
+            }
+        },
+        "l2-loads": {
+            "average": 480545304.76,
+            "variance": 2171002375002.4026,
+            "cov": 0.003066167041140219,
+            "normality": false,
+            "confidence_interval": {
+                "low": 480275247.5321418,
+                "high": 480765999.12565047
+            }
+        },
+        "l3-loads": {
+            "average": 480470581.16,
+            "variance": 1182869258384.4146,
+            "cov": 0.0022636098298760123,
+            "normality": false,
+            "confidence_interval": {
+                "low": 480273934.33066237,
+                "high": 480631696.38427716
+            }
+        },
+        "l1-load-miss-rate": {
+            "average": 0.9996849926301274,
+            "variance": 2.770103285308905e-10,
+            "cov": 0.000016648871782150393,
+            "normality": false,
+            "confidence_interval": {
+                "low": 0.9996813854579157,
+                "high": 0.9996871454283532
+            }
+        },
+        "l2-load-miss-rate": {
+            "average": 0.9999530992958658,
+            "variance": 1.6222006161940788e-12,
+            "cov": 0.0000012737161346241903,
+            "normality": false,
+            "confidence_interval": {
+                "low": 0.9999528837825853,
+                "high": 0.9999533020639929
+            }
+        },
+        "l3-load-miss-rate": {
+            "average": 0.8068907523946421,
+            "variance": 0.000011629065055587426,
+            "cov": 0.004226274115418427,
+            "normality": true,
+            "confidence_interval": {
+                "low": 0.8063018796505342,
+                "high": 0.8074212512098352
+            }
+        },
+        "l3-stores": {
+            "average": 207.85,
+            "variance": 56000.6875,
+            "cov": 1.1385356936656321,
+            "normality": false,
+            "confidence_interval": {
+                "low": 169.45729212537748,
+                "high": 247.43570739300685
+            }
+        },
+        "cpi": {
+            "average": 1.1873979889987205,
+            "variance": 0.00009250791081879888,
+            "cov": 0.00810015123407742,
+            "normality": false,
+            "confidence_interval": {
+                "low": 1.1861720915475715,
+                "high": 1.1896074311463793
+            }
+        },
+        "l3-store-miss-rate": {
+            "average": -0.41353405696399903,
+            "variance": 0.48675897290413256,
+            "cov": -1.687118940029606,
+            "normality": false,
+            "confidence_interval": {
+                "low": -0.5251309746430941,
+                "high": -0.29194683701801516
+            }
+        },
+        "load-page-walks": {
+            "average": 17816516498.63,
+            "variance": 19556568607481220,
+            "cov": 0.00784916635479976,
+            "normality": false,
+            "confidence_interval": {
+                "low": 17798807469.16647,
+                "high": 17848594116.30573
+            }
+        },
+        "store-page-walks": {
+            "average": 2.89,
+            "variance": 108.2579,
+            "cov": 3.600244175151479,
+            "normality": false,
+            "confidence_interval": {
+                "low": 1.58,
+                "high": 5.2
+            }
+        }
+    },
+    "cache_gadget_c6": {
+        "l1-loads": {
+            "average": 1995835574.49,
+            "variance": 359935008992318,
+            "cov": 0.009505769644938482,
+            "normality": true,
+            "confidence_interval": {
+                "low": 1992755837.0558152,
+                "high": 1999020079.2903285
+            }
+        },
+        "l2-loads": {
+            "average": 488024261.03,
+            "variance": 5685254319961.85,
+            "cov": 0.004885775820978567,
+            "normality": false,
+            "confidence_interval": {
+                "low": 487609367.6263928,
+                "high": 488386024.3548581
+            }
+        },
+        "l3-loads": {
+            "average": 488926137.13,
+            "variance": 2883674237129.6533,
+            "cov": 0.0034732004148198556,
+            "normality": false,
+            "confidence_interval": {
+                "low": 488620982.97568053,
+                "high": 489178271.4582309
+            }
+        },
+        "l1-load-miss-rate": {
+            "average": 0.2440902107236294,
+            "variance": 0.000006837547017403817,
+            "cov": 0.010712721151950547,
+            "normality": true,
+            "confidence_interval": {
+                "low": 0.24366251306690656,
+                "high": 0.24451091377261416
+            }
+        },
+        "l2-load-miss-rate": {
+            "average": 0.999964129617592,
+            "variance": 5.6354788846258195e-12,
+            "cov": 0.0000023740015164159856,
+            "normality": false,
+            "confidence_interval": {
+                "low": 0.9999637017316889,
+                "high": 0.9999644880395675
+            }
+        },
+        "l3-load-miss-rate": {
+            "average": 0.8033551984102655,
+            "variance": 0.000001611812832091023,
+            "cov": 0.0015803369561809696,
+            "normality": true,
+            "confidence_interval": {
+                "low": 0.803148954062358,
+                "high": 0.8035665138040429
+            }
+        },
+        "l3-stores": {
+            "average": 1031.08,
+            "variance": 93282351.17359999,
+            "cov": 9.367147935106017,
+            "normality": false,
+            "confidence_interval": {
+                "low": 56.27,
+                "high": 3976.8679000515376
+            }
+        },
+        "cpi": {
+            "average": 0.9256611094811737,
+            "variance": 0.000010330120759353624,
+            "cov": 0.0034721676100413624,
+            "normality": false,
+            "confidence_interval": {
+                "low": 0.9251883880260677,
+                "high": 0.9262607325030607
+            }
+        },
+        "l3-store-miss-rate": {
+            "average": -0.32695470369575264,
+            "variance": 0.7436191526187725,
+            "cov": -2.637471004169664,
+            "normality": false,
+            "confidence_interval": {
+                "low": -0.43224161383877013,
+                "high": -0.12529584113189038
+            }
+        },
+        "load-page-walks": {
+            "average": 23511473073.54,
+            "variance": 5344207300114548,
+            "cov": 0.003109294137261444,
+            "normality": false,
+            "confidence_interval": {
+                "low": 23500534626.129856,
+                "high": 23524804659.25669
+            }
+        },
+        "store-page-walks": {
+            "average": 55.4,
+            "variance": 4314.26,
+            "cov": 1.1856142008456554,
+            "normality": false,
+            "confidence_interval": {
+                "low": 46.43,
+                "high": 68.27379280822963
+            }
+        }
+    },
+    "cache_gadget_c7": {
+        "l1-loads": {
+            "average": 151943422.87,
+            "variance": 4721068525463.393,
+            "cov": 0.014300072735217993,
+            "normality": false,
+            "confidence_interval": {
+                "low": 151554670.33118474,
+                "high": 152276309.00095564
+            }
+        },
+        "l2-loads": {
+            "average": 355.78,
+            "variance": 168222.5716,
+            "cov": 1.1528176129143972,
+            "normality": false,
+            "confidence_interval": {
+                "low": 298.96547977847916,
+                "high": 436.77650299184194
+            }
+        },
+        "l3-loads": {
+            "average": 185.99,
+            "variance": 93661.10989999998,
+            "cov": 1.6454703290396389,
+            "normality": false,
+            "confidence_interval": {
+                "low": 146.25768122077105,
+                "high": 253.17016202181492
+            }
+        },
+        "l1-load-miss-rate": {
+            "average": 0.000002450563553602987,
+            "variance": 8.548040000177057e-12,
+            "cov": 1.1930737837980958,
+            "normality": false,
+            "confidence_interval": {
+                "low": 0.000002034855342432237,
+                "high": 0.000003029977852953354
+            }
+        },
+        "l2-load-miss-rate": {
+            "average": 0.524313359150094,
+            "variance": 0.12190133914703047,
+            "cov": 0.6659065932101035,
+            "normality": false,
+            "confidence_interval": {
+                "low": 0.4634280502475459,
+                "high": 0.5801303585528522
+            }
+        },
+        "l3-load-miss-rate": {
+            "average": 0.009665761894886016,
+            "variance": 0.06417534413116387,
+            "cov": 26.208852731198867,
+            "normality": false,
+            "confidence_interval": {
+                "low": -0.03097996801682695,
+                "high": 0.04984588090667505
+            }
+        },
+        "l3-stores": {
+            "average": 102099408.84,
+            "variance": 1716768896837.1748,
+            "cov": 0.012833132866778249,
+            "normality": false,
+            "confidence_interval": {
+                "low": 101852541.87645724,
+                "high": 102291295.70066325
+            }
+        },
+        "cpi": {
+            "average": 1.1974885354357712,
+            "variance": 0.01137368982547531,
+            "cov": 0.08905930997486641,
+            "normality": false,
+            "confidence_interval": {
+                "low": 1.1824529382921702,
+                "high": 1.2185822132227815
+            }
+        },
+        "l3-store-miss-rate": {
+            "average": 0.8041123732538008,
+            "variance": 0.00012647813865754036,
+            "cov": 0.013985918331897312,
+            "normality": false,
+            "confidence_interval": {
+                "low": 0.802388782855983,
+                "high": 0.8060502937056852
+            }
+        },
+        "load-page-walks": {
+            "average": 2554763703.78,
+            "variance": 46265372687941020,
+            "cov": 0.08419325402262957,
+            "normality": false,
+            "confidence_interval": {
+                "low": 2524201754.5242844,
+                "high": 2598023447.923067
+            }
+        },
+        "store-page-walks": {
+            "average": 51667841.58,
+            "variance": 366419135479.80365,
+            "cov": 0.011715713791226693,
+            "normality": false,
+            "confidence_interval": {
+                "low": 51559091.21791857,
+                "high": 51760032.08001264
+            }
+        }
+    },
+    "cache_gadget_c8": {
+        "l1-loads": {
+            "average": 65924005.3,
+            "variance": 335207253417.41,
+            "cov": 0.008782398073437232,
+            "normality": false,
+            "confidence_interval": {
+                "low": 65821556.09922315,
+                "high": 66012996.19522466
+            }
+        },
+        "l2-loads": {
+            "average": 690.15,
+            "variance": 45074.14749999999,
+            "cov": 0.3076240379000748,
+            "normality": false,
+            "confidence_interval": {
+                "low": 655.4157295475818,
+                "high": 726.9972981628432
+            }
+        },
+        "l3-loads": {
+            "average": 40.62,
+            "variance": 3816.6956,
+            "cov": 1.5209111474581776,
+            "normality": false,
+            "confidence_interval": {
+                "low": 31.71590413559517,
+                "high": 52.31098375903112
+            }
+        },
+        "l1-load-miss-rate": {
+            "average": 0.0000111797829381785,
+            "variance": 2.749425411922597e-11,
+            "cov": 0.4690159364443838,
+            "normality": false,
+            "confidence_interval": {
+                "low": 0.000010444619007823869,
+                "high": 0.000012221126222099576
+            }
+        },
+        "l2-load-miss-rate": {
+            "average": 0.06074718929891352,
+            "variance": 0.008337642518762371,
+            "cov": 1.5031262071803873,
+            "normality": false,
+            "confidence_interval": {
+                "low": 0.047534789128749144,
+                "high": 0.07847819905790356
+            }
+        },
+        "l3-load-miss-rate": {
+            "average": -0.29672413793103447,
+            "variance": 0.21302791319857314,
+            "cov": -1.5554833966479538,
+            "normality": false,
+            "confidence_interval": {
+                "low": -0.37344827586206897,
+                "high": -0.22344827586206897
+            }
+        },
+        "l3-stores": {
+            "average": 16012606.98,
+            "variance": 12624374382.3796,
+            "cov": 0.0070168612403462465,
+            "normality": false,
+            "confidence_interval": {
+                "low": 15991798.780767577,
+                "high": 16029083.457808489
+            }
+        },
+        "cpi": {
+            "average": 14.495545940421167,
+            "variance": 5.618702715773079,
+            "cov": 0.1635247336675299,
+            "normality": false,
+            "confidence_interval": {
+                "low": 14.08752076159733,
+                "high": 14.867031545097936
+            }
+        },
+        "l3-store-miss-rate": {
+            "average": 1.000249291120464,
+            "variance": 0.00001724405603170414,
+            "cov": 0.004151561352730734,
+            "normality": false,
+            "confidence_interval": {
+                "low": 0.9995937369174248,
+                "high": 1.0009582045675904
+            }
+        },
+        "load-page-walks": {
+            "average": 3208080656.01,
+            "variance": 275290666227944700,
+            "cov": 0.1635499685094418,
+            "normality": false,
+            "confidence_interval": {
+                "low": 3120445467.9028225,
+                "high": 3290596133.000565
+            }
+        },
+        "store-page-walks": {
+            "average": 3.81,
+            "variance": 883.5938999999989,
+            "cov": 7.80191795264776,
+            "normality": false,
+            "confidence_interval": {
+                "low": 0.69,
+                "high": 15.497770685469257
+            }
+        }
+    },
+    "bp_gadget_c2": {
+        "branch-references": {
+            "average": 14748991437.19,
+            "variance": 147125311873928.4,
+            "cov": 0.0008223967298615191,
+            "normality": true,
+            "confidence_interval": {
+                "low": 14746979023.2712,
+                "high": 14750981307.44874
+            }
+        },
+        "branch-non-conditional-references": {
+            "average": 8186048239.77,
+            "variance": 129199860631333.5,
+            "cov": 0.001388534653982335,
+            "normality": true,
+            "confidence_interval": {
+                "low": 8184177572.615703,
+                "high": 8187949222.76084
+            }
+        },
+        "branch-conditional-references": {
+            "average": 6562943197.42,
+            "variance": 26714862347534.41,
+            "cov": 0.0007875494362216208,
+            "normality": true,
+            "confidence_interval": {
+                "low": 6562101098.269772,
+                "high": 6563798016.614492
+            }
+        },
+        "br-miss-rate": {
+            "average": 0.11101904268160044,
+            "variance": 8.460938459217639e-9,
+            "cov": 0.0008285367758963165,
+            "normality": true,
+            "confidence_interval": {
+                "low": 0.11100397952064665,
+                "high": 0.11103395543841195
+            }
+        },
+        "frontend-boundedness": {
+            "average": 0.9550455974888257,
+            "variance": 0.000002796677166980577,
+            "cov": 0.0017510440092569283,
+            "normality": true,
+            "confidence_interval": {
+                "low": 0.9547682999105825,
+                "high": 0.9553208891134969
+            }
+        },
+        "bad-speculation": {
+            "average": 0.0007281366365494623,
+            "variance": 5.384016318565068e-7,
+            "cov": 1.0077209801946332,
+            "normality": true,
+            "confidence_interval": {
+                "low": 0.0006083440890623286,
+                "high": 0.0008489165151597751
+            }
+        },
+        "br-conditionals-miss-rate": {
+            "average": 0.00006927432022879159,
+            "variance": 6.36394067956062e-11,
+            "cov": 0.11515711830368348,
+            "normality": false,
+            "confidence_interval": {
+                "low": 0.00006796395590796651,
+                "high": 0.00007063153808912024
+            }
+        },
+        "br-non-conditionals-miss-rate": {
+            "average": 0.19997027173099483,
+            "variance": 7.652136067875016e-8,
+            "cov": 0.0013833303494443282,
+            "normality": true,
+            "confidence_interval": {
+                "low": 0.19992409261364272,
+                "high": 0.200015441179705
+            }
+        },
+        "cpi": {
+            "average": 0.7860711852681673,
+            "variance": 0.00003132892107439428,
+            "cov": 0.00712050576713281,
+            "normality": false,
+            "confidence_interval": {
+                "low": 0.7851493592720066,
+                "high": 0.7869738709720083
+            }
+        }
+    },
+    "bp_gadget_c4": {
+        "branch-references": {
+            "average": 247032167.92,
+            "variance": 5514247354611.954,
+            "cov": 0.009505820562968519,
+            "normality": false,
+            "confidence_interval": {
+                "low": 246378984.5042138,
+                "high": 247301024.65244055
+            }
+        },
+        "branch-non-conditional-references": {
+            "average": 82394435.98,
+            "variance": 6325280365067.238,
+            "cov": 0.03052403936059484,
+            "normality": false,
+            "confidence_interval": {
+                "low": 81868063.00106113,
+                "high": 82736094.2350356
+            }
+        },
+        "branch-conditional-references": {
+            "average": 164637731.94,
+            "variance": 2385546928940.8965,
+            "cov": 0.009381334203164629,
+            "normality": false,
+            "confidence_interval": {
+                "low": 164319186.6887044,
+                "high": 164849597.48351216
+            }
+        },
+        "br-miss-rate": {
+            "average": 0.1315757666492155,
+            "variance": 7.55293036634863e-7,
+            "cov": 0.006605137019207577,
+            "normality": false,
+            "confidence_interval": {
+                "low": 0.13143267184011434,
+                "high": 0.13171581710601699
+            }
+        },
+        "frontend-boundedness": {
+            "average": 0.5163148754792914,
+            "variance": 0.0001955420184131215,
+            "cov": 0.02708353877231707,
+            "normality": false,
+            "confidence_interval": {
+                "low": 0.5140170293970527,
+                "high": 0.5186009273228938
+            }
+        },
+        "bad-speculation": {
+            "average": 0.6786826443364827,
+            "variance": 0.000010307149229158261,
+            "cov": 0.004730450895527038,
+            "normality": false,
+            "confidence_interval": {
+                "low": 0.6780469249706153,
+                "high": 0.6791427348626402
+            }
+        },
+        "br-conditionals-miss-rate": {
+            "average": 0.19721438786666046,
+            "variance": 0.0000016569915902101639,
+            "cov": 0.0065271193838260435,
+            "normality": false,
+            "confidence_interval": {
+                "low": 0.1969591587879886,
+                "high": 0.19739408653254176
+            }
+        },
+        "br-non-conditionals-miss-rate": {
+            "average": 0.0009857115814382977,
+            "variance": 0.000011685192031033825,
+            "cov": 3.467911993413268,
+            "normality": false,
+            "confidence_interval": {
+                "low": 0.0005429697311991676,
+                "high": 0.0017306220235188837
+            }
+        },
+        "cpi": {
+            "average": 1.757320662887292,
+            "variance": 0.00023940045713815065,
+            "cov": 0.008804637337497733,
+            "normality": false,
+            "confidence_interval": {
+                "low": 1.7549068079057184,
+                "high": 1.760024948179157
+            }
+        }
+    },
+    "bp_gadget_c5": {
+        "branch-references": {
+            "average": 148885290.66,
+            "variance": 11726743278520.162,
+            "cov": 0.023000480861907025,
+            "normality": false,
+            "confidence_interval": {
+                "low": 148248292.2089267,
+                "high": 149390759.15929496
+            }
+        },
+        "branch-non-conditional-references": {
+            "average": 82395473.68,
+            "variance": 9648532179174.438,
+            "cov": 0.03769877775519233,
+            "normality": false,
+            "confidence_interval": {
+                "low": 81735383.90047926,
+                "high": 82807323.48819833
+            }
+        },
+        "branch-conditional-references": {
+            "average": 66489816.98,
+            "variance": 1926182168318.2598,
+            "cov": 0.02087341662366151,
+            "normality": false,
+            "confidence_interval": {
+                "low": 66234336.18478178,
+                "high": 66699860.68063051
+            }
+        },
+        "br-miss-rate": {
+            "average": 0.11148407491203453,
+            "variance": 0.000005595817241184144,
+            "cov": 0.02121870752316683,
+            "normality": false,
+            "confidence_interval": {
+                "low": 0.11114929889234282,
+                "high": 0.1119426443515215
+            }
+        },
+        "frontend-boundedness": {
+            "average": 0.8177695553675796,
+            "variance": 0.0016917367136037832,
+            "cov": 0.05029623180792964,
+            "normality": false,
+            "confidence_interval": {
+                "low": 0.8116177505425101,
+                "high": 0.825233387572249
+            }
+        },
+        "bad-speculation": {
+            "average": 0.002287590943921318,
+            "variance": 0.00011145607594482275,
+            "cov": 4.615019131745073,
+            "normality": false,
+            "confidence_interval": {
+                "low": 0.0005567266716500766,
+                "high": 0.00408178767358819
+            }
+        },
+        "br-conditionals-miss-rate": {
+            "average": 0.00005976843422005541,
+            "variance": 3.6096765913783344e-10,
+            "cov": 0.3178793146172545,
+            "normality": false,
+            "confidence_interval": {
+                "low": 0.00005687681043950377,
+                "high": 0.00006331219237165796
+            }
+        },
+        "br-non-conditionals-miss-rate": {
+            "average": 0.2016377142502995,
+            "variance": 0.00007934794822957876,
+            "cov": 0.04417698624675191,
+            "normality": false,
+            "confidence_interval": {
+                "low": 0.20045623017096934,
+                "high": 0.20356148803907187
+            }
+        },
+        "cpi": {
+            "average": 0.6504496546004391,
+            "variance": 0.0003785906325810033,
+            "cov": 0.0299137765079353,
+            "normality": true,
+            "confidence_interval": {
+                "low": 0.6472324469843347,
+                "high": 0.6536205651809625
+            }
+        }
+    },
+    "bp_gadget_c6": {
+        "branch-references": {
+            "average": 56374043.36,
+            "variance": 1509307048.1504002,
+            "cov": 0.0006891434216612099,
+            "normality": true,
+            "confidence_interval": {
+                "low": 56367701.67510848,
+                "high": 56380581.142581604
+            }
+        },
+        "branch-non-conditional-references": {
+            "average": 39261671.7,
+            "variance": 3441460237317.87,
+            "cov": 0.04725008463996556,
+            "normality": false,
+            "confidence_interval": {
+                "low": 38663544.99008667,
+                "high": 39454704.02454835
+            }
+        },
+        "branch-conditional-references": {
+            "average": 17112371.66,
+            "variance": 3447181707413.584,
+            "cov": 0.10849803785989744,
+            "normality": false,
+            "confidence_interval": {
+                "low": 16919865.12443055,
+                "high": 17808122.6442464
+            }
+        },
+        "br-miss-rate": {
+            "average": 0.0908986823724664,
+            "variance": 1.1901988105275681e-8,
+            "cov": 0.0012001959806672165,
+            "normality": true,
+            "confidence_interval": {
+                "low": 0.09088015594661235,
+                "high": 0.09091580046447764
+            }
+        },
+        "frontend-boundedness": {
+            "average": 0.054387878436089665,
+            "variance": 0.0000068768752828904824,
+            "cov": 0.04821625284649825,
+            "normality": false,
+            "confidence_interval": {
+                "low": 0.05406275087267175,
+                "high": 0.05499351286570647
+            }
+        },
+        "bad-speculation": {
+            "average": 0.37337005186138783,
+            "variance": 0.0000012230472973768218,
+            "cov": 0.002961980165780108,
+            "normality": false,
+            "confidence_interval": {
+                "low": 0.37313635296880954,
+                "high": 0.37351536339658115
+            }
+        },
+        "br-conditionals-miss-rate": {
+            "average": 0.3039072534535341,
+            "variance": 0.00027638140597901237,
+            "cov": 0.05470327721691137,
+            "normality": false,
+            "confidence_interval": {
+                "low": 0.29861097244782187,
+                "high": 0.3056635800147593
+            }
+        },
+        "br-non-conditionals-miss-rate": {
+            "average": 0,
+            "variance": 0,
+            "cov": null,
+            "normality": true,
+            "confidence_interval": null
+        },
+        "cpi": {
+            "average": 266.7054094071428,
+            "variance": 0.1395787699637564,
+            "cov": 0.0014008055672773665,
+            "normality": false,
+            "confidence_interval": {
+                "low": 266.65691431765123,
+                "high": 266.7915846670835
+            }
+        }
+    },
+    "bp_gadget_c7": {
+        "branch-references": {
+            "average": 4925212702.62,
+            "variance": 24885929960037.34,
+            "cov": 0.0010128658913767425,
+            "normality": false,
+            "confidence_interval": {
+                "low": 4924381443.323387,
+                "high": 4926017774.8015375
+            }
+        },
+        "branch-non-conditional-references": {
+            "average": 1638484284.47,
+            "variance": 26519696243566.13,
+            "cov": 0.0031429827141179535,
+            "normality": false,
+            "confidence_interval": {
+                "low": 1637628710.1932967,
+                "high": 1639324058.9112897
+            }
+        },
+        "branch-conditional-references": {
+            "average": 3286728418.15,
+            "variance": 7146755073817.768,
+            "cov": 0.0008133746436150028,
+            "normality": true,
+            "confidence_interval": {
+                "low": 3286287943.3089705,
+                "high": 3287165710.2905526
+            }
+        },
+        "br-miss-rate": {
+            "average": 0.15073857486425346,
+            "variance": 0.0000012975301118673422,
+            "cov": 0.007556737176142992,
+            "normality": false,
+            "confidence_interval": {
+                "low": 0.15055837539049388,
+                "high": 0.1509316567715542
+            }
+        },
+        "frontend-boundedness": {
+            "average": 0.758782965262609,
+            "variance": 0.000009389519100675228,
+            "cov": 0.004038351360934892,
+            "normality": true,
+            "confidence_interval": {
+                "low": 0.758283736262769,
+                "high": 0.7592956605946464
+            }
+        },
+        "bad-speculation": {
+            "average": 0.7364512733697031,
+            "variance": 0.0000026110004266845468,
+            "cov": 0.002194115340948782,
+            "normality": true,
+            "confidence_interval": {
+                "low": 0.7361901756558464,
+                "high": 0.7367260909329152
+            }
+        },
+        "br-conditionals-miss-rate": {
+            "average": 0.22586782948545353,
+            "variance": 0.000002877749162290551,
+            "cov": 0.007510556017074956,
+            "normality": true,
+            "confidence_interval": {
+                "low": 0.22559279224486947,
+                "high": 0.2261521659180649
+            }
+        },
+        "br-non-conditionals-miss-rate": {
+            "average": 0.00023978065088276333,
+            "variance": 1.56576059517412e-7,
+            "cov": 1.6502454531404227,
+            "normality": false,
+            "confidence_interval": {
+                "low": 0.00018378876562072212,
+                "high": 0.00031629829004793447
+            }
+        },
+        "cpi": {
+            "average": 2.3079570891359724,
+            "variance": 0.00017090608709108748,
+            "cov": 0.005664362456816267,
+            "normality": true,
+            "confidence_interval": {
+                "low": 2.3058596371698092,
+                "high": 2.3101342305967494
+            }
+        }
+    },
+    "bp_gadget_c8": {
+        "branch-references": {
+            "average": 1364172979.8,
+            "variance": 26218621639969.965,
+            "cov": 0.0037534919168990526,
+            "normality": false,
+            "confidence_interval": {
+                "low": 1363273361.0055501,
+                "high": 1364973893.018163
+            }
+        },
+        "branch-non-conditional-references": {
+            "average": 1059693886.4,
+            "variance": 25964982484732.953,
+            "cov": 0.004808543931567776,
+            "normality": false,
+            "confidence_interval": {
+                "low": 1058816703.9187964,
+                "high": 1060520993.5880632
+            }
+        },
+        "branch-conditional-references": {
+            "average": 304479093.4,
+            "variance": 1099987515335.06,
+            "cov": 0.0034445809878478305,
+            "normality": false,
+            "confidence_interval": {
+                "low": 304298439.1920412,
+                "high": 304645016.6194845
+            }
+        },
+        "br-miss-rate": {
+            "average": 0.0948872697777815,
+            "variance": 2.9527859911336137e-7,
+            "cov": 0.005726747503436411,
+            "normality": false,
+            "confidence_interval": {
+                "low": 0.09480060834662295,
+                "high": 0.09498144203293242
+            }
+        },
+        "frontend-boundedness": {
+            "average": 0.99086359963904,
+            "variance": 0.00023546573829636236,
+            "cov": 0.015486382698468209,
+            "normality": false,
+            "confidence_interval": {
+                "low": 0.9876161426546772,
+                "high": 0.9929719007791484
+            }
+        },
+        "bad-speculation": {
+            "average": 0.4390041093579519,
+            "variance": 0.000005602492905738044,
+            "cov": 0.005391654717237626,
+            "normality": true,
+            "confidence_interval": {
+                "low": 0.43862646920987786,
+                "high": 0.4394031588504636
+            }
+        },
+        "br-conditionals-miss-rate": {
+            "average": 0.425214715897183,
+            "variance": 0.000003987220260656156,
+            "cov": 0.0046959863676495515,
+            "normality": false,
+            "confidence_interval": {
+                "low": 0.42491226490952855,
+                "high": 0.425570175120687
+            }
+        },
+        "br-non-conditionals-miss-rate": {
+            "average": 0.00020214065646801757,
+            "variance": 1.2195228307723855e-7,
+            "cov": 1.7275924436810155,
+            "normality": false,
+            "confidence_interval": {
+                "low": 0.00015042458670078742,
+                "high": 0.00026836671309385943
+            }
+        },
+        "cpi": {
+            "average": 1.3525435934642942,
+            "variance": 0.00007327648457777102,
+            "cov": 0.006328940916505833,
+            "normality": false,
+            "confidence_interval": {
+                "low": 1.3512692629585021,
+                "high": 1.3541530459792233
+            }
+        }
+    },
+    "cache_gadget_c1": {
+        "l1-loads": {
+            "average": 1000551480.38,
+            "variance": 48565560096326.08,
+            "cov": 0.00696505839656158,
+            "normality": false,
+            "confidence_interval": {
+                "low": 999327410.4344921,
+                "high": 1001618654.3218557
+            }
+        },
+        "l2-loads": {
+            "average": 996735871.83,
+            "variance": 52120685929139.09,
+            "cov": 0.007243108198309835,
+            "normality": false,
+            "confidence_interval": {
+                "low": 995491566.5854034,
+                "high": 997865628.9054898
+            }
+        },
+        "l3-loads": {
+            "average": 1866.93,
+            "variance": 717293.5650999999,
+            "cov": 0.45364949616225125,
+            "normality": false,
+            "confidence_interval": {
+                "low": 1736.0333186843277,
+                "high": 2013.4513284350978
+            }
+        },
+        "l1-load-miss-rate": {
+            "average": 0.996665374902194,
+            "variance": 2.158579566105814e-8,
+            "cov": 0.0001474126182940668,
+            "normality": false,
+            "confidence_interval": {
+                "low": 0.9966422580267678,
+                "high": 0.9966903125258719
+            }
+        },
+        "l2-load-miss-rate": {
+            "average": 0.0000018815690407533007,
+            "variance": 7.508875723260945e-13,
+            "cov": 0.4605399396023913,
+            "normality": false,
+            "confidence_interval": {
+                "low": 0.0000017476562478146543,
+                "high": 0.000002033852493590657
+            }
+        },
+        "l3-load-miss-rate": {
+            "average": 0.04107983101718023,
+            "variance": 0.007319912641479315,
+            "cov": 2.082688411725133,
+            "normality": false,
+            "confidence_interval": {
+                "low": 0.0292280673354954,
+                "high": 0.05866579566093148
+            }
+        },
+        "l3-stores": {
+            "average": 18.73,
+            "variance": 20276.4371,
+            "cov": 7.602528292055185,
+            "normality": false,
+            "confidence_interval": {
+                "low": 5.27,
+                "high": 64.08
+            }
+        },
+        "cpi": {
+            "average": 0.2510387037613671,
+            "variance": 0.000005774533276818001,
+            "cov": 0.009572332164467923,
+            "normality": false,
+            "confidence_interval": {
+                "low": 0.2506944395170215,
+                "high": 0.25150476034994845
+            }
+        },
+        "l3-store-miss-rate": {
+            "average": -0.9683532934131737,
+            "variance": 0.03256306339416974,
+            "cov": -0.1863497409683612,
+            "normality": false,
+            "confidence_interval": {
+                "low": -0.99,
+                "high": -0.9250598802395209
+            }
+        },
+        "load-page-walks": {
+            "average": 5272399962.43,
+            "variance": 1867258514366468.8,
+            "cov": 0.00819584763308614,
+            "normality": false,
+            "confidence_interval": {
+                "low": 5265994973.367374,
+                "high": 5280134329.867869
+            }
+        },
+        "store-page-walks": {
+            "average": 0.4,
+            "variance": 15.840000000000005,
+            "cov": 9.9498743710662,
+            "normality": false,
+            "confidence_interval": {
+                "low": 0,
+                "high": 1.6
+            }
+        }
+    },
+    "cache_gadget_c2": {
+        "l1-loads": {
+            "average": 375954911.85,
+            "variance": 162904947859583.47,
+            "cov": 0.03394934302104112,
+            "normality": false,
+            "confidence_interval": {
+                "low": 373730519.1257549,
+                "high": 377955657.73629767
+            }
+        },
+        "l2-loads": {
+            "average": 32373798.86,
+            "variance": 132158886483441.38,
+            "cov": 0.3551031471446102,
+            "normality": false,
+            "confidence_interval": {
+                "low": 30478647.535636693,
+                "high": 34185958.7393526
+            }
+        },
+        "l3-loads": {
+            "average": 32404711.04,
+            "variance": 132461528338292.58,
+            "cov": 0.3551703699964183,
+            "normality": false,
+            "confidence_interval": {
+                "low": 30474792.2167163,
+                "high": 34295475.78089875
+            }
+        },
+        "l1-load-miss-rate": {
+            "average": 0.08621555626514248,
+            "variance": 0.0009127376104204629,
+            "cov": 0.35041875204912853,
+            "normality": false,
+            "confidence_interval": {
+                "low": 0.08114165597128288,
+                "high": 0.09105731926792016
+            }
+        },
+        "l2-load-miss-rate": {
+            "average": 0.9999617064435422,
+            "variance": 4.0777172699929325e-9,
+            "cov": 0.00006385945183389452,
+            "normality": false,
+            "confidence_interval": {
+                "low": 0.9999451828956363,
+                "high": 0.9999691508309118
+            }
+        },
+        "l3-load-miss-rate": {
+            "average": 0.9999945352724641,
+            "variance": 3.030466053527008e-10,
+            "cov": 0.000017408328969608454,
+            "normality": false,
+            "confidence_interval": {
+                "low": 0.9999891452978503,
+                "high": 0.9999963959972326
+            }
+        },
+        "l3-stores": {
+            "average": 46792400.68,
+            "variance": 1298305351693774.5,
+            "cov": 0.7700396650659755,
+            "normality": false,
+            "confidence_interval": {
+                "low": 41066405.51121614,
+                "high": 52959518.23092176
+            }
+        },
+        "cpi": {
+            "average": 17.103533513002542,
+            "variance": 21.32974073185135,
+            "cov": 0.2700268469736102,
+            "normality": false,
+            "confidence_interval": {
+                "low": 16.3383036203828,
+                "high": 17.849248156682062
+            }
+        },
+        "l3-store-miss-rate": {
+            "average": 0.5264396697375028,
+            "variance": 0.7084489885118838,
+            "cov": 1.5988425009079124,
+            "normality": false,
+            "confidence_interval": {
+                "low": 0.37714626574623517,
+                "high": 0.6565033129724699
+            }
+        },
+        "load-page-walks": {
+            "average": 22119702167.72,
+            "variance": 35590840244963820000,
+            "cov": 0.26970552642339646,
+            "normality": false,
+            "confidence_interval": {
+                "low": 21104231269.23555,
+                "high": 23075600004.17691
+            }
+        },
+        "store-page-walks": {
+            "average": 11.92,
+            "variance": 825.9936,
+            "cov": 2.411082582545642,
+            "normality": false,
+            "confidence_interval": {
+                "low": 8.03,
+                "high": 17.6
+            }
+        }
+    },
+    "cache_gadget_c13": {
+        "l1-loads": {
+            "average": 39874633.96,
+            "variance": 10534045175.558401,
+            "cov": 0.0025739545789287633,
+            "normality": false,
+            "confidence_interval": {
+                "low": 39857356.187324636,
+                "high": 39890323.44596509
+            }
+        },
+        "l2-loads": {
+            "average": 128676.9,
+            "variance": 5463229052.81,
+            "cov": 0.574412807945708,
+            "normality": true,
+            "confidence_interval": {
+                "low": 116880.60654046205,
+                "high": 141262.30433971225
+            }
+        },
+        "l3-loads": {
+            "average": 28313.6,
+            "variance": 111637468.12000002,
+            "cov": 0.3731727275945487,
+            "normality": false,
+            "confidence_interval": {
+                "low": 26892.580529277508,
+                "high": 30468.50128024475
+            }
+        },
+        "l1-load-miss-rate": {
+            "average": 0.0032099030603922767,
+            "variance": 0.000003506373666012274,
+            "cov": 0.5833607175192839,
+            "normality": false,
+            "confidence_interval": {
+                "low": 0.0029081136357637476,
+                "high": 0.0035282480211362255
+            }
+        },
+        "l2-load-miss-rate": {
+            "average": 0.3287725754968093,
+            "variance": 0.05794640060770545,
+            "cov": 0.7321796406215746,
+            "normality": false,
+            "confidence_interval": {
+                "low": 0.2906219541469994,
+                "high": 0.3699050127833493
+            }
+        },
+        "l3-load-miss-rate": {
+            "average": 0.9181707663700236,
+            "variance": 0.026821779369731666,
+            "cov": 0.17836939190889953,
+            "normality": false,
+            "confidence_interval": {
+                "low": 0.8854790390111692,
+                "high": 0.9405995238526708
+            }
+        },
+        "l3-stores": {
+            "average": 2543052726,
+            "variance": 27659556332384.94,
+            "cov": 0.0020680795500075443,
+            "normality": true,
+            "confidence_interval": {
+                "low": 2542194759.3328958,
+                "high": 2543919991.5165873
+            }
+        },
+        "cpi": {
+            "average": 58.861169339149264,
+            "variance": 0.09078458054600837,
+            "cov": 0.0051189060654968,
+            "normality": false,
+            "confidence_interval": {
+                "low": 58.822859812791066,
+                "high": 58.92901136718932
+            }
+        },
+        "l3-store-miss-rate": {
+            "average": 0.9999777462798631,
+            "variance": 0.00000202832413570046,
+            "cov": 0.001424224144658882,
+            "normality": true,
+            "confidence_interval": {
+                "low": 0.9997478074545192,
+                "high": 1.0002197148278402
+            }
+        },
+        "load-page-walks": {
+            "average": 25956602130.12,
+            "variance": 18532003479892724,
+            "cov": 0.005244611783190818,
+            "normality": false,
+            "confidence_interval": {
+                "low": 25939414018.947147,
+                "high": 25987506928.48348
+            }
+        },
+        "store-page-walks": {
+            "average": 103039041.03,
+            "variance": 328014772475.2291,
+            "cov": 0.0055583372437385025,
+            "normality": false,
+            "confidence_interval": {
+                "low": 102933632.28535132,
+                "high": 103125458.96345317
+            }
+        }
+    }
+}

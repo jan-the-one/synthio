@@ -1,0 +1,827 @@
+{
+    "MV9jYWNoZV9nYWRnZXRfYzc7Ml9jYWNoZV9nYWRnZXRfYzU7M19icF9nYWRnZXRfYzI=": {
+        "variants": [
+            "1_cache_gadget_c7",
+            "2_cache_gadget_c5",
+            "3_bp_gadget_c2"
+        ],
+        "measurements": [
+            {
+                "l1-loads": {
+                    "avg": 34223344474.1,
+                    "var": 2.015610691190224e+16
+                }
+            },
+            {
+                "l2-loads": {
+                    "avg": 508057602.5,
+                    "var": 15245208067658.65
+                }
+            },
+            {
+                "l1-load-miss-rate": {
+                    "avg": 0.014842351076831174,
+                    "var": 3.733911915453856e-08
+                }
+            },
+            {
+                "l2-load-miss-rate": {
+                    "avg": 0.9634378124705008,
+                    "var": 8.206589274373814e-06
+                }
+            },
+            {
+                "l3-load-miss-rate": {
+                    "avg": 0.7869616721559346,
+                    "var": 8.012987671088205e-05
+                }
+            },
+            {
+                "l3-store-miss-rate": {
+                    "avg": 0.8005810957050642,
+                    "var": 0.0001206130842744163
+                }
+            },
+            {
+                "instructions": {
+                    "avg": 113977677687.3,
+                    "var": 7.0650913955678e+16
+                }
+            },
+            {
+                "cpi": {
+                    "avg": 0.8507584846352652,
+                    "var": 0.0002737377095306982
+                }
+            },
+            {
+                "br-miss-rate": {
+                    "avg": 0.10000872308422586,
+                    "var": 3.7685239805623084e-08
+                }
+            },
+            {
+                "br-conditionals-miss-rate": {
+                    "avg": 9.397599832818498e-05,
+                    "var": 1.3213246838308961e-10
+                }
+            },
+            {
+                "frontend-boundedness": {
+                    "avg": 0.7280235909975677,
+                    "var": 0.00023066832205517453
+                }
+            }
+        ]
+    },
+    "MV9jYWNoZV9nYWRnZXRfYzEzOzJfY2FjaGVfZ2FkZ2V0X2M4OzNfY2FjaGVfZ2FkZ2V0X2My": {
+        "variants": [
+            "1_cache_gadget_c13",
+            "2_cache_gadget_c8",
+            "3_cache_gadget_c2"
+        ],
+        "measurements": [
+            {
+                "l1-loads": {
+                    "avg": 991122098.6,
+                    "var": 4189732416042567.0
+                }
+            },
+            {
+                "l2-loads": {
+                    "avg": 30739568.6,
+                    "var": 194558849619408.62
+                }
+            },
+            {
+                "l1-load-miss-rate": {
+                    "avg": 0.03080736922270077,
+                    "var": 0.00017457155881329018
+                }
+            },
+            {
+                "l2-load-miss-rate": {
+                    "avg": 0.9945446255762602,
+                    "var": 2.684301370228296e-05
+                }
+            },
+            {
+                "l3-load-miss-rate": {
+                    "avg": 0.9997836420597324,
+                    "var": 1.283434259606237e-07
+                }
+            },
+            {
+                "l3-store-miss-rate": {
+                    "avg": 0.9988724563565146,
+                    "var": 9.405370470979896e-06
+                }
+            },
+            {
+                "instructions": {
+                    "avg": 3741502817.2,
+                    "var": 1.0000498009160912e+17
+                }
+            },
+            {
+                "cpi": {
+                    "avg": 15.608341610351962,
+                    "var": 1.8995268400359442
+                }
+            },
+            {
+                "br-miss-rate": {
+                    "avg": 0.0006270946018325204,
+                    "var": 5.779892440325967e-09
+                }
+            },
+            {
+                "br-conditionals-miss-rate": {
+                    "avg": 0.001436856109227396,
+                    "var": 7.679663014823164e-08
+                }
+            },
+            {
+                "frontend-boundedness": {
+                    "avg": 0.012917606884850576,
+                    "var": 7.388786345944581e-06
+                }
+            }
+        ]
+    },
+    "MV9icF9nYWRnZXRfYzY7Ml9icF9nYWRnZXRfYzU7M19icF9nYWRnZXRfYzc=": {
+        "variants": [
+            "1_bp_gadget_c6",
+            "2_bp_gadget_c5",
+            "3_bp_gadget_c7"
+        ],
+        "measurements": [
+            {
+                "l1-loads": {
+                    "avg": 7528698394.5,
+                    "var": 2265647852259981.0
+                }
+            },
+            {
+                "l2-loads": {
+                    "avg": 28458421.2,
+                    "var": 2702319172945.96
+                }
+            },
+            {
+                "l1-load-miss-rate": {
+                    "avg": 0.003780915386979612,
+                    "var": 4.9732797826915515e-08
+                }
+            },
+            {
+                "l2-load-miss-rate": {
+                    "avg": 0.7265937118172832,
+                    "var": 0.0008651340603349677
+                }
+            },
+            {
+                "l3-load-miss-rate": {
+                    "avg": 0.9740707321198157,
+                    "var": 0.00019398257838117622
+                }
+            },
+            {
+                "l3-store-miss-rate": {
+                    "avg": 0.12444160555197319,
+                    "var": 0.061057641125259444
+                }
+            },
+            {
+                "instructions": {
+                    "avg": 17326594142.3,
+                    "var": 1.29092616121345e+16
+                }
+            },
+            {
+                "cpi": {
+                    "avg": 6.03111623204357,
+                    "var": 0.009773950459431153
+                }
+            },
+            {
+                "br-miss-rate": {
+                    "avg": 0.14027334721336182,
+                    "var": 1.941125029182816e-06
+                }
+            },
+            {
+                "br-conditionals-miss-rate": {
+                    "avg": 0.20898866075158545,
+                    "var": 1.7104454706136954e-06
+                }
+            },
+            {
+                "frontend-boundedness": {
+                    "avg": 0.33049925962040916,
+                    "var": 0.002038164139639676
+                }
+            }
+        ]
+    },
+    "MV9jYWNoZV9nYWRnZXRfYzQ7Ml9jYWNoZV9nYWRnZXRfYzY7M19icF9nYWRnZXRfYzI=": {
+        "variants": [
+            "1_cache_gadget_c4",
+            "2_cache_gadget_c6",
+            "3_bp_gadget_c2"
+        ],
+        "measurements": [
+            {
+                "l1-loads": {
+                    "avg": 39474612143.0,
+                    "var": 9465350349572104.0
+                }
+            },
+            {
+                "l2-loads": {
+                    "avg": 1496797552.3,
+                    "var": 103665046360083.0
+                }
+            },
+            {
+                "l1-load-miss-rate": {
+                    "avg": 0.03804241127712298,
+                    "var": 4.601799683024814e-08
+                }
+            },
+            {
+                "l2-load-miss-rate": {
+                    "avg": 0.9307885213020473,
+                    "var": 1.5609290159351244e-05
+                }
+            },
+            {
+                "l3-load-miss-rate": {
+                    "avg": 0.28248327913484744,
+                    "var": 3.233974811746422e-06
+                }
+            },
+            {
+                "l3-store-miss-rate": {
+                    "avg": 0.02175736064818717,
+                    "var": 0.0007356828101761345
+                }
+            },
+            {
+                "instructions": {
+                    "avg": 164190276708.9,
+                    "var": 7.606560451543517e+16
+                }
+            },
+            {
+                "cpi": {
+                    "avg": 0.7089198649002209,
+                    "var": 0.00012209868981339668
+                }
+            },
+            {
+                "br-miss-rate": {
+                    "avg": 0.07290706748876002,
+                    "var": 1.2918145517516531e-08
+                }
+            },
+            {
+                "br-conditionals-miss-rate": {
+                    "avg": 7.502819014382931e-05,
+                    "var": 1.9414942543223472e-10
+                }
+            },
+            {
+                "frontend-boundedness": {
+                    "avg": 0.6153787384845094,
+                    "var": 0.0001608603875226355
+                }
+            }
+        ]
+    },
+    "MV9icF9nYWRnZXRfYzU7Ml9icF9nYWRnZXRfYzc7M19icF9nYWRnZXRfYzQ=": {
+        "variants": [
+            "1_bp_gadget_c5",
+            "2_bp_gadget_c7",
+            "3_bp_gadget_c4"
+        ],
+        "measurements": [
+            {
+                "l1-loads": {
+                    "avg": 7985961170.3,
+                    "var": 3418837042272227.5
+                }
+            },
+            {
+                "l2-loads": {
+                    "avg": 14151218.3,
+                    "var": 6051709797830.41
+                }
+            },
+            {
+                "l1-load-miss-rate": {
+                    "avg": 0.0017659232224318665,
+                    "var": 9.204464619813242e-08
+                }
+            },
+            {
+                "l2-load-miss-rate": {
+                    "avg": 0.058906879098695505,
+                    "var": 0.0003664384026019854
+                }
+            },
+            {
+                "l3-load-miss-rate": {
+                    "avg": 0.026956353057864157,
+                    "var": 0.0006675352886563795
+                }
+            },
+            {
+                "l3-store-miss-rate": {
+                    "avg": 0.3083836347144649,
+                    "var": 0.05521743163818962
+                }
+            },
+            {
+                "instructions": {
+                    "avg": 17883023452.6,
+                    "var": 2.0885670333935404e+16
+                }
+            },
+            {
+                "cpi": {
+                    "avg": 1.9861259868822703,
+                    "var": 0.0004105575697748859
+                }
+            },
+            {
+                "br-miss-rate": {
+                    "avg": 0.13942057668128655,
+                    "var": 2.26578011245858e-06
+                }
+            },
+            {
+                "br-conditionals-miss-rate": {
+                    "avg": 0.20712789718125832,
+                    "var": 3.868408779086483e-06
+                }
+            },
+            {
+                "frontend-boundedness": {
+                    "avg": 0.706929164502386,
+                    "var": 0.0004835008275706032
+                }
+            }
+        ]
+    },
+    "MV9jYWNoZV9nYWRnZXRfYzU7Ml9jYWNoZV9nYWRnZXRfYzE7M19jYWNoZV9nYWRnZXRfYzY=": {
+        "variants": [
+            "1_cache_gadget_c5",
+            "2_cache_gadget_c1",
+            "3_cache_gadget_c6"
+        ],
+        "measurements": [
+            {
+                "l1-loads": {
+                    "avg": 3912669320.8,
+                    "var": 3962936428675638.5
+                }
+            },
+            {
+                "l2-loads": {
+                    "avg": 1952965658.6,
+                    "var": 82022960468883.84
+                }
+            },
+            {
+                "l1-load-miss-rate": {
+                    "avg": 0.49891280571212493,
+                    "var": 0.00010902132861750335
+                }
+            },
+            {
+                "l2-load-miss-rate": {
+                    "avg": 0.49575875978890116,
+                    "var": 1.3546581501479835e-05
+                }
+            },
+            {
+                "l3-load-miss-rate": {
+                    "avg": 0.8049098714691677,
+                    "var": 9.38469263522554e-06
+                }
+            },
+            {
+                "l3-store-miss-rate": {
+                    "avg": 0.20469493560960897,
+                    "var": 0.2261626659967928
+                }
+            },
+            {
+                "instructions": {
+                    "avg": 63477642164.0,
+                    "var": 5.539741206945787e+16
+                }
+            },
+            {
+                "cpi": {
+                    "avg": 0.7524488110051086,
+                    "var": 0.00020684864376554037
+                }
+            },
+            {
+                "br-miss-rate": {
+                    "avg": 4.5077534243464425e-05,
+                    "var": 8.750220877929182e-11
+                }
+            },
+            {
+                "br-conditionals-miss-rate": {
+                    "avg": 0.00011382314658644624,
+                    "var": 3.326809493699212e-10
+                }
+            },
+            {
+                "frontend-boundedness": {
+                    "avg": 0.012060920693466554,
+                    "var": 5.108304332016199e-07
+                }
+            }
+        ]
+    },
+    "MV9jYWNoZV9nYWRnZXRfYzI7Ml9icF9nYWRnZXRfYzg7M19jYWNoZV9nYWRnZXRfYzY=": {
+        "variants": [
+            "1_cache_gadget_c2",
+            "2_bp_gadget_c8",
+            "3_cache_gadget_c6"
+        ],
+        "measurements": [
+            {
+                "l1-loads": {
+                    "avg": 4379382168.3,
+                    "var": 3441581709486244.5
+                }
+            },
+            {
+                "l2-loads": {
+                    "avg": 516042056.2,
+                    "var": 128292946579041.95
+                }
+            },
+            {
+                "l1-load-miss-rate": {
+                    "avg": 0.11850081643430452,
+                    "var": 1.2668829143290516e-05
+                }
+            },
+            {
+                "l2-load-miss-rate": {
+                    "avg": 0.9999467709771214,
+                    "var": 3.1485766688494105e-10
+                }
+            },
+            {
+                "l3-load-miss-rate": {
+                    "avg": 0.8252973445331795,
+                    "var": 0.00011288338476842102
+                }
+            },
+            {
+                "l3-store-miss-rate": {
+                    "avg": 0.8903027243375771,
+                    "var": 0.04956931568117477
+                }
+            },
+            {
+                "instructions": {
+                    "avg": 34777231031.9,
+                    "var": 1.446003276239973e+17
+                }
+            },
+            {
+                "cpi": {
+                    "avg": 1.6799162480053513,
+                    "var": 0.03992327695885338
+                }
+            },
+            {
+                "br-miss-rate": {
+                    "avg": 0.029856691931642143,
+                    "var": 2.566671713835894e-07
+                }
+            },
+            {
+                "br-conditionals-miss-rate": {
+                    "avg": 0.06201285223881967,
+                    "var": 3.3307810996256843e-06
+                }
+            },
+            {
+                "frontend-boundedness": {
+                    "avg": 0.1372943762956915,
+                    "var": 0.00028261360928765464
+                }
+            }
+        ]
+    },
+    "MV9icF9nYWRnZXRfYzY7Ml9icF9nYWRnZXRfYzg7M19icF9nYWRnZXRfYzc=": {
+        "variants": [
+            "1_bp_gadget_c6",
+            "2_bp_gadget_c8",
+            "3_bp_gadget_c7"
+        ],
+        "measurements": [
+            {
+                "l1-loads": {
+                    "avg": 8674032120.1,
+                    "var": 6071764805720729.0
+                }
+            },
+            {
+                "l2-loads": {
+                    "avg": 31870842.4,
+                    "var": 1625139208271.4402
+                }
+            },
+            {
+                "l1-load-miss-rate": {
+                    "avg": 0.0036745788659885426,
+                    "var": 2.6814364564864423e-08
+                }
+            },
+            {
+                "l2-load-miss-rate": {
+                    "avg": 0.6544807963841452,
+                    "var": 0.0005564269213169149
+                }
+            },
+            {
+                "l3-load-miss-rate": {
+                    "avg": 0.9750789527553184,
+                    "var": 0.00016503701791744017
+                }
+            },
+            {
+                "l3-store-miss-rate": {
+                    "avg": -0.021589869328030108,
+                    "var": 0.11377829370045027
+                }
+            },
+            {
+                "instructions": {
+                    "avg": 22140343598.7,
+                    "var": 1.082174529302568e+17
+                }
+            },
+            {
+                "cpi": {
+                    "avg": 5.004358481724072,
+                    "var": 0.00776481719124269
+                }
+            },
+            {
+                "br-miss-rate": {
+                    "avg": 0.13077685805150444,
+                    "var": 3.3879215155006743e-07
+                }
+            },
+            {
+                "br-conditionals-miss-rate": {
+                    "avg": 0.2290862016266882,
+                    "var": 1.3332418295314774e-06
+                }
+            },
+            {
+                "frontend-boundedness": {
+                    "avg": 0.32111056664719895,
+                    "var": 0.00014988949274749374
+                }
+            }
+        ]
+    },
+    "MV9jYWNoZV9nYWRnZXRfYzQ7Ml9jYWNoZV9nYWRnZXRfYzEzOzNfYnBfZ2FkZ2V0X2M3": {
+        "variants": [
+            "1_cache_gadget_c4",
+            "2_cache_gadget_c13",
+            "3_bp_gadget_c7"
+        ],
+        "measurements": [
+            {
+                "l1-loads": {
+                    "avg": 11068540810.5,
+                    "var": 4412032665378442.5
+                }
+            },
+            {
+                "l2-loads": {
+                    "avg": 999650464.0,
+                    "var": 131269558276320.6
+                }
+            },
+            {
+                "l1-load-miss-rate": {
+                    "avg": 0.09081690515888013,
+                    "var": 1.6199673306156776e-06
+                }
+            },
+            {
+                "l2-load-miss-rate": {
+                    "avg": 0.9174287418738813,
+                    "var": 3.75384878721804e-05
+                }
+            },
+            {
+                "l3-load-miss-rate": {
+                    "avg": 6.230708545375911e-05,
+                    "var": 1.0499406235271309e-09
+                }
+            },
+            {
+                "l3-store-miss-rate": {
+                    "avg": 1.0005557136823646,
+                    "var": 4.9682164960821485e-06
+                }
+            },
+            {
+                "instructions": {
+                    "avg": 58290890113.2,
+                    "var": 5.6968820745126984e+16
+                }
+            },
+            {
+                "cpi": {
+                    "avg": 1.3144320241474707,
+                    "var": 0.0005771632477377896
+                }
+            },
+            {
+                "br-miss-rate": {
+                    "avg": 0.07261831661914803,
+                    "var": 3.1101297668511823e-07
+                }
+            },
+            {
+                "br-conditionals-miss-rate": {
+                    "avg": 0.11451392742326147,
+                    "var": 2.2271964686319178e-07
+                }
+            },
+            {
+                "frontend-boundedness": {
+                    "avg": 0.3253350417675883,
+                    "var": 3.410823966644478e-05
+                }
+            }
+        ]
+    },
+    "MV9icF9nYWRnZXRfYzQ7Ml9icF9nYWRnZXRfYzQ7M19icF9nYWRnZXRfYzU=": {
+        "variants": [
+            "1_bp_gadget_c4",
+            "2_bp_gadget_c4",
+            "3_bp_gadget_c5"
+        ],
+        "measurements": [
+            {
+                "l1-loads": {
+                    "avg": 2055192276.7,
+                    "var": 2317303268169772.5
+                }
+            },
+            {
+                "l2-loads": {
+                    "avg": 3938636.4,
+                    "var": 816628612452.8401
+                }
+            },
+            {
+                "l1-load-miss-rate": {
+                    "avg": 0.0019258380151136012,
+                    "var": 1.7441143090607804e-07
+                }
+            },
+            {
+                "l2-load-miss-rate": {
+                    "avg": 0.059787298445419024,
+                    "var": 0.00027022347447599825
+                }
+            },
+            {
+                "l3-load-miss-rate": {
+                    "avg": 0.0029256717309345125,
+                    "var": 2.0691026847859655e-05
+                }
+            },
+            {
+                "l3-store-miss-rate": {
+                    "avg": 0.030310325371450064,
+                    "var": 0.006094284057131097
+                }
+            },
+            {
+                "instructions": {
+                    "avg": 4956799451.8,
+                    "var": 1.917355675203593e+16
+                }
+            },
+            {
+                "cpi": {
+                    "avg": 0.9525649210786679,
+                    "var": 0.0002801670527609315
+                }
+            },
+            {
+                "br-miss-rate": {
+                    "avg": 0.0916239333239206,
+                    "var": 1.5593701012057066e-05
+                }
+            },
+            {
+                "br-conditionals-miss-rate": {
+                    "avg": 0.12233493939791804,
+                    "var": 5.589314076189612e-05
+                }
+            },
+            {
+                "frontend-boundedness": {
+                    "avg": 0.36138257911222943,
+                    "var": 0.0002338930672136802
+                }
+            }
+        ]
+    },
+    "MV9icF9nYWRnZXRfYzQ7Ml9jYWNoZV9nYWRnZXRfYzQ7M19jYWNoZV9nYWRnZXRfYzE=": {
+        "variants": [
+            "1_bp_gadget_c4",
+            "2_cache_gadget_c4",
+            "3_cache_gadget_c1"
+        ],
+        "measurements": [
+            {
+                "l1-loads": {
+                    "avg": 6032798799.7,
+                    "var": 807203550810478.1
+                }
+            },
+            {
+                "l2-loads": {
+                    "avg": 1988010140.2,
+                    "var": 311208374708885.56
+                }
+            },
+            {
+                "l1-load-miss-rate": {
+                    "avg": 0.32878874611331604,
+                    "var": 7.07369082893716e-06
+                }
+            },
+            {
+                "l2-load-miss-rate": {
+                    "avg": 0.4508457933659552,
+                    "var": 3.239567448805142e-05
+                }
+            },
+            {
+                "l3-load-miss-rate": {
+                    "avg": 3.4017922030910577e-06,
+                    "var": 1.3200611688440147e-11
+                }
+            },
+            {
+                "l3-store-miss-rate": {
+                    "avg": 0.20512663544985438,
+                    "var": 0.2626630958332033
+                }
+            },
+            {
+                "instructions": {
+                    "avg": 65718424295.7,
+                    "var": 4.092531709199367e+16
+                }
+            },
+            {
+                "cpi": {
+                    "avg": 0.36473040879481533,
+                    "var": 2.995194958629871e-05
+                }
+            },
+            {
+                "br-miss-rate": {
+                    "avg": 0.004204811895208741,
+                    "var": 7.708477998324445e-10
+                }
+            },
+            {
+                "br-conditionals-miss-rate": {
+                    "avg": 0.007255797771318785,
+                    "var": 3.598263246348848e-08
+                }
+            },
+            {
+                "frontend-boundedness": {
+                    "avg": 0.02381811137939215,
+                    "var": 2.110143732523758e-06
+                }
+            }
+        ]
+    }
+}

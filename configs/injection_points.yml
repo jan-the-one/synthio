@@ -1,0 +1,59 @@
+---
+injection_points:
+  - id: '1'
+    gadget_name: bp_gadget
+    variant: c6
+  - id: '2'
+    gadget_name: cache_gadget
+    variant: c4
+  - id: '3'
+    gadget_name: bp_gadget
+    variant: c2
+  - id: '4'
+    gadget_name: bp_gadget
+    variant: c6
+  - id: '5'
+    gadget_name: cache_gadget
+    variant: c5
+  - id: '6'
+    gadget_name: cache_gadget
+    variant: c6
+  - id: '7'
+    gadget_name: cache_gadget
+    variant: c7
+  - id: '8'
+    gadget_name: cache_gadget
+    variant: c8
+  - id: '9'
+    gadget_name: cache_gadget
+    variant: c9
+  - id: '10'
+    gadget_name: cache_gadget
+    variant: c10
+  - id: '13'
+    gadget_name: cache_gadget
+    variant: c13
+  - id: '21'
+    gadget_name: bp_gadget
+    variant: c1
+  - id: '22'
+    gadget_name: bp_gadget
+    variant: c2
+  - id: '23'
+    gadget_name: bp_gadget
+    variant: c3
+  - id: '24'
+    gadget_name: bp_gadget
+    variant: c4
+  - id: '25'
+    gadget_name: bp_gadget
+    variant: c5
+  - id: '26'
+    gadget_name: bp_gadget
+    variant: c6
+  - id: '27'
+    gadget_name: bp_gadget
+    variant: c7
+  - id: '28'
+    gadget_name: bp_gadget
+    variant: c8

@@ -1,0 +1,7 @@
+templates:
+  - name: 'memo'
+    target_variant: c1
+  - name: 'scrambler'
+    target_variant: c6
+  - name: 'empty_template'
+    target_variant: c9

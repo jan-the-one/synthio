@@ -1,0 +1,6 @@
+.vscode
+.vendor
+__pycache__
+out/*
+!out/gadgets_repo
+test.cc

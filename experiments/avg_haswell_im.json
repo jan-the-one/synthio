@@ -1,0 +1,125 @@
+{
+  "bp_gadget_c1": {
+    "br-references": 247495267,
+    "br-miss-rate": 0.12186311916954076,
+    "br-conditionals-miss-rate": 0.18274281233447323,
+    "cpi": 1.9149362404268526
+  },
+  "bp_gadget_c2": {
+    "br-references": 14751686210.2,
+    "br-miss-rate": 0.11101778646767987,
+    "br-conditionals-miss-rate": 0.00002201515864948521,
+    "cpi": 0.8377259308069226
+  },
+  "bp_gadget_c4": {
+    "br-references": 247474894,
+    "br-miss-rate": 0.1297457545043998,
+    "br-conditionals-miss-rate": 0.1941730852820897,
+    "cpi": 1.6373502618201332
+  },
+  "bp_gadget_c5": {
+    "br-references": 149654753.3,
+    "br-miss-rate": 0.11103265691553324,
+    "br-conditionals-miss-rate": 0.00002831854101171366,
+    "cpi": 0.6631662684828094
+  },
+  "bp_gadget_c6": {
+    "br-references": 56344232.8,
+    "br-miss-rate": 0.09086224091986843,
+    "br-conditionals-miss-rate": 0.49954438611940766,
+    "cpi": 206.29050596401368
+  },
+  "bp_gadget_c7": {
+    "br-references": 4921901720.3,
+    "br-miss-rate": 0.15294656749057212,
+    "br-conditionals-miss-rate": 0.22942602769214943,
+    "cpi": 2.211464817186698
+  },
+  "bp_gadget_c8": {
+    "br-references": 1364153847.9,
+    "br-miss-rate": 0.10047780644362436,
+    "br-conditionals-miss-rate": 0.4511793495389913,
+    "cpi": 1.5262270195266034
+  },
+  "cache_gadget_c1": {
+    "l1-load-miss-rate": 0.9998785800230333,
+    "l2-load-miss-rate": 0.0000024493672267094995,
+    "l3-load-miss-rate": 0.12981465158935895,
+    "cpi": 0.26197156698584173,
+    "l3-store-miss-rate": -1,
+    "load-page-walks": 5510878619.6,
+    "store-page-walks": 9.3
+  },
+  "cache_gadget_c2": {
+    "l1-load-miss-rate": 0.04962718574213929,
+    "l2-load-miss-rate": 0.9999793732524458,
+    "l3-load-miss-rate": 0.9999352877686404,
+    "cpi": 7.000492183444564,
+    "l3-store-miss-rate": -0.6807773109243698,
+    "load-page-walks": 9054354304.1,
+    "store-page-walks": 0
+  },
+  "cache_gadget_c3": {
+    "l1-load-miss-rate": 0.9999992766235491,
+    "l2-load-miss-rate": 0.965737018597982,
+    "l3-load-miss-rate": 4.52420849859733e-7,
+    "cpi": 0.35336520248701964,
+    "l3-store-miss-rate": -1,
+    "load-page-walks": 7425419562,
+    "store-page-walks": 0
+  },
+  "cache_gadget_c4": {
+    "l1-load-miss-rate": 0.24563750940124157,
+    "l2-load-miss-rate": 0.9646341727068946,
+    "l3-load-miss-rate": 6.023713227827986e-7,
+    "cpi": 0.3813824979030622,
+    "l3-store-miss-rate": -1,
+    "load-page-walks": 16057648753.1,
+    "store-page-walks": 0
+  },
+  "cache_gadget_c5": {
+    "l1-load-miss-rate": 0.9994282046830836,
+    "l2-load-miss-rate": 0.9998710736265011,
+    "l3-load-miss-rate": 0.802570372635406,
+    "cpi": 1.4569726496837614,
+    "l3-store-miss-rate": -1,
+    "load-page-walks": 15310056011.2,
+    "store-page-walks": 0
+  },
+  "cache_gadget_c6": {
+    "l1-load-miss-rate": 0.24516034276071164,
+    "l2-load-miss-rate": 0.9999479133101905,
+    "l3-load-miss-rate": 0.8012152700047166,
+    "cpi": 1.1132608788966665,
+    "l3-store-miss-rate": -1,
+    "load-page-walks": 23311301147.9,
+    "store-page-walks": 279.7
+  },
+  "cache_gadget_c7": {
+    "l1-load-miss-rate": 0.0008786184291183106,
+    "l2-load-miss-rate": 0.8536609376802062,
+    "l3-load-miss-rate": 0.027539623882013094,
+    "cpi": 1.3729721342915429,
+    "l3-store-miss-rate": 0.8041004818512316,
+    "load-page-walks": 2768031712.2,
+    "store-page-walks": 35.8
+  },
+  "cache_gadget_c8": {
+    "l1-load-miss-rate": 0.000026142142729884374,
+    "l2-load-miss-rate": 0.660201965146649,
+    "l3-load-miss-rate": 0.7197921936272123,
+    "cpi": 14.427739384923223,
+    "l3-store-miss-rate": 1.0000390661093532,
+    "load-page-walks": 3195540110.7,
+    "store-page-walks": 0
+  },
+  "cache_gadget_c13": {
+    "l1-load-miss-rate": 0.020291468168262716,
+    "l2-load-miss-rate": 0.991892923179656,
+    "l3-load-miss-rate": 0.8336899537086481,
+    "cpi": 57.20631257846052,
+    "l3-store-miss-rate": 0.8095290433283473,
+    "load-page-walks": 24036200353.7,
+    "store-page-walks": 359.3
+  }
+}

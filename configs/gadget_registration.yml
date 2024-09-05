@@ -1,0 +1,75 @@
+---
+gadgets:
+  - name: 'cache_gadget'
+    makefile_path: .
+    variants:
+      - id: c1
+        options: 
+        - alloc_scaler: 2 
+        - ops_scaler: 1000
+        - working_set_scaler: 4
+      - id: c2
+        options: 
+        - alloc_scaler: 2 
+        - ops_scaler: 1000
+        - working_set_scaler: 4
+      - id: c3
+        options: 
+        - alloc_scaler: 2 
+        - ops_scaler: 1000
+        - working_set_scaler: 4
+      - id: c4
+        options: 
+        - alloc_scaler: 2 
+        - ops_scaler: 1000
+        - working_set_scaler: 4
+      - id: c5
+        options: 
+        - alloc_scaler: 2 
+        - ops_scaler: 1000
+        - working_set_scaler: 4
+      - id: c6
+        options: 
+        - alloc_scaler: 2 
+        - ops_scaler: 1000
+        - working_set_scaler: 4
+      - id: c7
+        options: 
+        - alloc_scaler: 2 
+        - ops_scaler: 500
+        - working_set_scaler: 4
+      - id: c8
+        options: 
+        - alloc_scaler: 2 
+        - ops_scaler: 1000
+        - working_set_scaler: 4
+      - id: c13
+        options: 
+        - alloc_scaler: 2 
+        - ops_scaler: 100
+        - working_set_scaler: 16
+
+  - name: 'bp_gadget'
+    makefile_path: .
+    variants:
+      - id: c1
+        options:
+          - ops_scaler: 10
+          - lopside: 0
+      - id: c2
+        options:
+          - ops_scaler: 100
+      - id: c4
+        options:
+          - ops_scaler: 10
+      - id: c5
+      - id: c6
+        options:
+          - ops_scaler: 10
+      - id: c7
+        options:
+          - ops_scaler: 100
+          - alloc_scaler: 4
+      - id: c8
+        options:
+          - ops_scaler: 100

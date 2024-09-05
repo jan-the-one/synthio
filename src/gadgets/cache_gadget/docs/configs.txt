@@ -1,0 +1,22 @@
+c1: READS ^ BypassCache ..
+
+c2: READS ^ Wreck L1 
+
+c3: READS ^ Wreck L1 ^ Wreck L2
+
+c4: READS ^ Wreck L1 ^ Wreck L2 ^ Improve L1 Rate
+
+c5: READS ^ Wreck L1 ^ Wreck L2 ^ Wreck L3
+
+c6: READS ^ Wreck L1 ^ Wreck L2 ^ Improve L1 Rate ^ Wreck L3
+
+=============================================================
+c7: WRITES ^ BypassCache
+ 
+c8: WRITES ^ Wreck L1
+
+c9: WRITES ^ Wreck L1 ^ Wreck L2
+
+c10: WRITES ^ Wreck L1 ^ Wreck L2 ^ Wreck L3
+
+c11: WRITES ^ Wreck L1 ^ Wreck L2 ^ Wreck L3 ^ Amortize TLB
